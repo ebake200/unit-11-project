@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Example</title>
+</head>
+<body>
+  <h1>Sample Form</h1>
+
+  <form action="http://webdevbasics.net/scripts/demo.php" method="post">
+    <label for="user">User Name:</label>
+    <input type="text" id="user" name="user" maxlength="30"><br><br>
+
+    <label>Favorite Month:</label><br>
+    <input type="radio" id="january" name="favMonth" value="January">
+    <label for="january">January</label><br>
+    <input type="radio" id="february" name="favMonth" value="February">
+    <label for="february">February</label><br>
+
+    <label for="social">Favorite Social Networking Site:</label>
+    <select id="social" name="social">
+      <option value="facebook">Facebook</option>
+      <option value="twitter">Twitter</option>
+      <option value="instagram">Instagram</option>
+    </select><br><br>
+
+    <fieldset>
+      <legend>Shipping Address:</legend>
+      <label for="address1">Address Line 1:</label>
+      <input type="text" id="address1" name="address1"><br>
+
+      <label for="address2">Address Line 2:</label>
+      <input type="text" id="address2" name="address2"><br>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city"><br>
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state"><br>
+
+      <label for="zip">ZIP:</label>
+      <input type="text" id="zip" name="zip"><br>
+    </fieldset><br>
+
+    <input type="image" src="button_image_url_here" alt="Submit"><br><br>
+
+    <input type="hidden" name="userid" value="123456789">
+
+    <label for="pword">Password:</label>
+    <input type="password" id="pword" name="pword"><br><br>
+
+  </form>
+  <a href="index.html">Home</a>
+</body>
+</html>
